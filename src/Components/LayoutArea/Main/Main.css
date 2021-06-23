@@ -1,8 +1,14 @@
-.Main {
-	height: 100%;
+.Main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
 }
-
 .Main > img{
     /* height: 100px; */
+    width: 20%;
 }
+
 

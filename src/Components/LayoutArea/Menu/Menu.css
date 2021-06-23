@@ -1,5 +1,11 @@
 .Menu {
-	
+	display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 span{
