@@ -23,6 +23,7 @@ main{
     grid-column: span 10;
     border: 2px solid black;
     background-color:skyblue;
+    overflow-y: auto;
 }
 footer{
     grid-column: span 12;

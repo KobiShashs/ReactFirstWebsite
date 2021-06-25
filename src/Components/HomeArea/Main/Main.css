@@ -1,10 +1,11 @@
 .Main{
-    display: flex;
+    display: block;
     flex-direction: column;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     justify-content: center;
-    align-content: stretch;
-    align-items: center;
+    /* align-content: stretch;
+    align-items: center; */
+    
 }
 .Main > img{
     /* height: 100px; */

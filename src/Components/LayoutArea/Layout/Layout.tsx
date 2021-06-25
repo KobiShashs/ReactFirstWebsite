@@ -1,6 +1,6 @@
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import Main from "../Main/Main";
+import Main from "../../HomeArea/Main/Main";
 import Menu from "../Menu/Menu";
 import "./Layout.css";
 

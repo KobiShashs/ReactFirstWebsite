@@ -1,16 +1,10 @@
-body {
-  height: 100%;
-  margin: 0;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-html,
-body,
-#root {
+html, body, #root{
   height: 100%;
   margin: 0;
   padding: 0;
@@ -25,4 +19,35 @@ body,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+
+.Box {
+  display:block;
+  text-align: center;
+  border-radius: 100px;
+  background-color: cornsilk;
+  margin: 5px;
+  padding: 2px;
+  box-shadow: 2px;
+}
+
+.Box2 {
+  display:inline;
+  text-align: center;
+  border-radius: 100px;
+  background-color: silver;
+  margin: 5px;
+  padding: 10px;
+  /* box-shadow: 10px; */
+  box-shadow: 5px 5px 15px 5px #2856ad;
+}
+
+h2{
+  color: seagreen
+}
+
+span{
+  color:#2856ad;
+  font-weight: bold;
 }
