@@ -24,7 +24,9 @@ function Clubs(): JSX.Element {
            {/* Step 3 - Reading from an array of Objects */}
            {/* {teams.map(team =><span>&nbsp;{team.name}&nbsp;|</span>)} */}
            {/* Step 4 - Reading from an array of Objects and provide unique prop. id for React DOM  */}
-           {teams.map(team =><span key={team.id}>&nbsp;{team.name}&nbsp;|</span>)}
+           {/* {teams.map(team =><span key={team.id}>&nbsp;{team.name}&nbsp;|</span>)} */}
+           {/* Step 5 - Add a , separator */}
+           {teams.map((team,idx) =><span key={team.id}>{(idx?' | ':'')}{team.name}</span>)}
         
         </div>
     );

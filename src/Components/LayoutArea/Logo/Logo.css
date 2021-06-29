@@ -1,0 +1,11 @@
+.Logo {
+    position: absolute;
+    width: 10%;
+    left: 2px;
+
+}
+
+.Logo > img{
+    width: 45%;
+
+}

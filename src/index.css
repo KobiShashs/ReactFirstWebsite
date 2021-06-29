@@ -43,6 +43,18 @@ html, body, #root{
   box-shadow: 5px 5px 15px 5px #2856ad;
 }
 
+
+.Box2 {
+  display:block;
+  border-radius: 100px;
+  background-color: silver;
+  margin: 5px;
+  padding: 10px;
+  /* box-shadow: 10px; */
+  box-shadow: 5px 5px 15px 5px #2856ad;
+}
+
+
 h2{
   color: seagreen
 }
