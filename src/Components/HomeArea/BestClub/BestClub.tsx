@@ -9,13 +9,13 @@ class BestClub extends Component<{},ClubState> {
     // private team = 'aaa';
     public constructor(state: ClubState) {
         super(state);
-        this.state = {team : 'aaa'};// Initializing State
+        this.state = {team : 'MTA'};// Initializing State
     }
 
 
     private showBestTeam = ()=>{
 
-        this.setState({'team':'bbb'});
+        this.setState({'team':'FCB'});
        // this.team ='bbb';
         alert(this.state.team);
     }

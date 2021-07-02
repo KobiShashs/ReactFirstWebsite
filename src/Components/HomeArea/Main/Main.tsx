@@ -1,7 +1,11 @@
 import BestClub from "../BestClub/BestClub";
+import Clock from "../Clock/Clock";
 import Clubs from "../Clubs/Clubs";
+import ContactUs from "../ContactUs/ContactUs";
 import Goals from "../Goals/Goals";
+import MUI from "../MUI/MUI";
 import Sales from "../Sales/Sales";
+import Search from "../Search/Search";
 import TheBest from "../TheBest/TheBest";
 import Total from "../Total/Total";
 import Workout from "../Workout/Workout";
@@ -35,10 +39,21 @@ function Main(): JSX.Element {
             {/* <Sales percent={20}/> */}
 
             {/* Events */}
-            <TheBest/>
+            {/* <TheBest/> */}
 
             {/* Events */}
-            <BestClub/>
+            {/* <BestClub/> */}
+
+            {/* Two Way Binding */}
+            {/* <Search/> */}
+
+            {/* Lifecycle Hooks */}
+            {/* <Clock/> */}
+
+            {/* MUI */}
+            {/* <ContactUs/> */}
+
+            <MUI/>
     
            
         </div>
