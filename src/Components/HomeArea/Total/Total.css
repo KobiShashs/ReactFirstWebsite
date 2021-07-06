@@ -3,6 +3,14 @@
 }
 
 
-.left {
-    flex: 1;
-  }
+/* .Total > div > h2{
+  color:palevioletred;
+} */
+
+.Total h2{
+  color:powderblue;
+}
+
+.Total span{
+  color:firebrick;
+}

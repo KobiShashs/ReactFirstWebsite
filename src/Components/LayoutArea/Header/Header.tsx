@@ -1,5 +1,6 @@
 import Logo from "../Logo/Logo";
 import "./Header.css";
+import Marquee from "react-fast-marquee";
 
 function Header(): JSX.Element {
     return (

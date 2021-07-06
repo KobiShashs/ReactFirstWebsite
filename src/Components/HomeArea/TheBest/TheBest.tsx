@@ -15,7 +15,7 @@ import "./TheBest.css";
 class TheBest extends Component {
 
     private player = 'Messi';
-    private showTheBest =( args:SyntheticEvent )=>{ alert(this.player);}
+    private showTheBest =(args:SyntheticEvent)=>{ alert(this.player);}
     public render():JSX.Element {
         return (
             <div className="TheBest Box">

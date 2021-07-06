@@ -19,39 +19,39 @@ function Main(): JSX.Element {
             <img src="https://media.giphy.com/media/TjAcxImn74uoDYVxFl/giphy.gif"/> */}
 
             {/* Interpolation */}
-            {/* <Total/> */}
+            <Total/>
 
             {/* Conditional Rendering */}
-            {/* <Workout/> */}
+            <Workout/>
 
             {/* Displaying List */}
-            {/* <Clubs/> */}
+            <Clubs/>
 
-            {/* <h2>Goals History</h2> */}
+            <h2>Goals History</h2>
             {/* Props */}
-            {/* <img src="http://imge1.com" alt="Moshe 1" />
-            <img src="http://imge2.com" alt="Moshe 2" /> */}
-            {/* <Goals team="Barcelona" goals={500}/> */}
-            {/* <Goals team="Barcelona A" goals={135}/> */}
+          
+        
+            <Goals team="Barcelona" goals={500}/>
+            <Goals team="Barcelona A" goals={135}/>
 
             {/* Props */}
-            {/* <Sales category="shows" percent={20}/> */}
-            {/* <Sales percent={20}/> */}
+            <Sales category="shows" percent={20}/>
+            <Sales percent={20}/>
 
             {/* Events */}
-            {/* <TheBest/> */}
+            <TheBest/>
 
             {/* Events */}
-            {/* <BestClub/> */}
+            <BestClub/>
 
             {/* Two Way Binding */}
-            {/* <Search/> */}
+            <Search/>
 
             {/* Lifecycle Hooks */}
-            {/* <Clock/> */}
+            <Clock/>
 
             {/* MUI */}
-            {/* <ContactUs/> */}
+            <ContactUs/>
 
             <MUI/>
     
